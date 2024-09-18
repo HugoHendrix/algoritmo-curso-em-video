@@ -17,6 +17,8 @@ São passos a serem seguidos por um `módulo processador` e seus respectivos `us
 
 - Modúlo Processador: é tudo aquilo que pode efetuar processamentos, tudo aquilo que pode ser programado.
 - Usuários: pessoas que vão usar o programa
+
+---
  
 # Representando a Lógica de Programação
 
@@ -31,6 +33,8 @@ Ele mostra visualmente, de forma simples e clara, as diferentes etapas que comp�
 
 ![alt text](image-1.png)
 
+---
+
 ### Diagrama de Nasssi Shneiderman
 O Diagrama de Nassi-Shneiderman (DNS), também conhecido como Estruturado, é uma técnica de representação gráfica de algoritmos que utiliza estruturas de controle bem definidas. Ele oferece uma forma clara e concisa de visualizar a lógica de um programa, sendo especialmente útil para a documentação e análise de código.
  - Estruturado: Baseia-se em três estruturas de controle fundamentais da programação: sequencia, seleção (if-then-else) e repetição (while, for).
@@ -39,6 +43,8 @@ O Diagrama de Nassi-Shneiderman (DNS), também conhecido como Estruturado, é um
  - Sem fluxo: Ao contrário de fluxogramas tradicionais, os DNS não utilizam setas para indicar o fluxo de controle, o que reduz a complexidade visual.
  
 ![alt text](image.png)
+
+---
 
 ### Pseudocódigo - Portugol
 O Portugol é uma variação do pseudocódigo especialmente desenvolvida para o ensino de programação no Brasil. Ele utiliza palavras em português e uma sintaxe simplificada, tornando o aprendizado mais intuitivo para quem está começando a programar.
