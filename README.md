@@ -2,12 +2,14 @@
 
 Curso de Algoritmo desenvolvido por Gustavo Guanabara, com diversas aulas para ajudar você a se especializar, incluindo testes com certificados para agregar em sua carreira. Todas as aulas com vídeos excelentes, super práticos e dinâmicos.
 
+Link das aulas - https://www.cursoemvideo.com/curso/curso-de-algoritmo/
+
 # Introdução a Algoritmos - Curso em Video
 
 - O que é um algoritmo?
 
 De acordo com o livro, Algoritmos Lógica para Desenvolvimento, do autor, José Augusto N. G. Manzano.
-`Algortimos são conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado problema.`
+> Algortimos são conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado problema.
 
 ### Algoritmos Computacionais
 
