@@ -20,7 +20,7 @@ São passos a serem seguidos por um `módulo processador` e seus respectivos `us
 
 ---
  
-# Representando a Lógica de Programação
+## Representando a Lógica de Programação
 
 Usar a lógica é um fator a ser considerado por todos, principalmente pelos profissionais da Tecnologia
 

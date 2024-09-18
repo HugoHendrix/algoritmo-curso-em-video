@@ -117,3 +117,146 @@ escreval ("Mensagem: ", msg)
 
 fimalgoritmo
 ```
+
+### Comando de Entrada e Operadores
+
+Comandos de Entrada:
+
+leia: Captura dados do usuário e armazena em uma variável.
+Exemplo: leia(idade);
+
+**Operadores:**
+
+* Aritméticos: Realizam cálculos (soma, subtração, multiplicação, divisão, módulo).
+  - Exemplo: resultado <- numero1 + numero2;
+* Relacionais: Comparam valores (igual, diferente, maior, menor).
+  - Exemplo: se idade >= 18 entao
+* Lógicos: Combinam condições lógicas (e, ou, não).
+  - Exemplo: se (temCarteira && idade >= 18) entao
+
+Em resumo:
+
+Comandos de entrada: Interagem com o usuário.
+Operadores: Realizam operações em valores.
+
+```VisualG
+algoritmo "meuNome"
+var
+   nome: caractere
+   idade: inteiro
+
+inicio
+
+      escreval ("Digite seu nome?")
+      Leia(nome)
+      escreval ("Muito prazer, ", nome)
+      escreval ("Qual a sua idade?")
+      leia (idade)
+       se idade >= 18 entao
+      escreva(nome, ", você é maior de idade.")
+       senao
+      escreva(nome, ", você é menor de idade.")
+      fimse
+fimalgoritmo
+```
+
+### Exercício de somar valores
+
+```Visualg
+algoritmo "somarNumeros"
+var
+n1, n2, resultado: inteiro
+inicio
+escreva ("Infome um número: ")
+leia(n1)
+escreva ("Inforem outro número: ")
+leia(n2)
+resultado <- n1 + n2
+escreval ("A soma entre o número ", n1, " e o número ", n2," é igual a ", resultado)
+
+fimalgoritmo
+``` 
+---
+
+### Operadores Aritméticos em Portugol
+Operadores aritméticos são símbolos utilizados para realizar cálculos matemáticos básicos. Em Portugol, os principais são:
+
++: Adição
+-: Subtração
+*: Multiplicação
+/: Divisão
+\: Divisão inteira
+^: Exponenciação
+%: Módulo (resto da divisão)
+
+```VisualG
+algoritmo "semnome"
+var
+
+a, b, resultadoSomar, resultadoSubtrair, resultadoMultiplicacao: inteiro
+resultadoDivisao, resultadoExponenciacao, resultadoModulo: real
+
+inicio
+
+escreva("Digite um número: ")
+leia(a)
+escreva("Digite outro número: ")
+leia(b)
+escreval("Os números informados foram ",a," e ", b)
+resultadoSomar <- a + b
+resultadoSubtrair <- a - b
+resultadoMultiplicacao <- a * b
+resultadoDivisao <- a / b
+resultadoExponenciacao <- a ^ b
+resultadoModulo <- a % b
+escreval("A soma entre os números informados, são: ",resultadoSomar)
+escreval("A subtração entre os números informados, são: ",resultadoSubtrair)
+escreval("A multiplicalçao entre os números informados, são: ",resultadoMultiplicacao)
+escreval ("A divisão entre os números informados, são: ",resultadoDivisao)
+escreval ("A exponenciação entre os número informados, são: ",resultadoExponenciacao)
+escreval ("O resto da divisão entre os números informados, são: ",resultadoModulo)
+fimalgoritmo
+```
+---
+
+### Ordem de Precedência em Operadores Aritméticos
+
+A ordem em que as operações são realizadas em uma expressão matemática segue uma regra chamada ordem de precedência.
+
+A ordem é a seguinte:
+() PARÊNTESES
+^ EXPONENCIAÇÃO
+* / MULTIPLICAÇÃO E DIVISÃO
++- ADIÇÃO E SUBTRAÇÃO 
+
+Parênteses: Tudo dentro de parênteses é calculado primeiro.
+Multiplicação e Divisão: São realizadas antes da adição e subtração.
+
+Adição e Subtração: São realizadas por último.
+`resultado <- 2 + 3 * 4; // Resultado é 14 (3*4 primeiro)`
+
+Para mudar a ordem, use parênteses:
+`resultado <- (2 + 3) * 4; // Resultado é 20`
+
+### Exercício de Cálcula de Média
+
+```VisualG
+algoritmo "semnome"
+var
+
+n1, n2: inteiro
+media: real
+
+inicio
+escreva ("Informe um número: ")
+leia(n1)
+escreva ("Informe outro número: ")
+leia(n2)
+media <- (n1 + n2) / 2
+escreva ("A media entre ",n1, " e ",n2," é igual ", media)
+
+fimalgoritmo
+```
+
+### Funções Aritméticas 23:09
+
