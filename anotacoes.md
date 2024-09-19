@@ -260,3 +260,56 @@ fimalgoritmo
 
 ### Funções Aritméticas 23:09
 
+Em Portugol, as funções aritméticas são como "mini-programas" que realizam cálculos específicos. Elas recebem valores como entrada, processam esses valores e retornam um resultado. Isso torna o código mais organizado, reutilizável e fácil de entender.
+
+* ABS - Valor Absoluto
+* EXP - Exponenciaçã
+* INT - Valor Inteiro
+* RaizQ - Raiz Quadrada
+* Pi - Retorna PI
+* Sen - Seno (rad)
+* Cos - Cosseno (rad)
+* Tan - Tangente (rad)
+* GraupRad - Graus para rad
+
+```VisualG
+algoritmo "testeFuncoes"
+var
+
+a: inteiro
+b, c: real
+
+
+inicio
+a <- abs(-50)
+escreval(a)
+
+b <- exp(9, 5)
+escreval(b)
+
+c <- int(RaizQ(81)) // Note aqui estamos pegando somente a parte inteira
+escreval (c)
+
+c <- sen(GraupRad(90))  //   Aqui é para saber o seno de 90, converte 90 para radianos e informo para função de seno
+escreval(c)
+
+fimalgoritmo
+```
+### Exercício de conversão
+
+```VisualG
+algoritmo "conversos"
+var
+
+ angulo, seno: real
+ 
+inicio
+escreva("Informe um angulo: ")
+leia(angulo)
+seno <- sen(GraupRad(angulo))
+Escreva ("O seno de ", angulo, " é igual a ", seno )
+
+
+
+fimalgoritmo
+```
