@@ -313,3 +313,60 @@ Escreva ("O seno de ", angulo, " é igual a ", seno )
 
 fimalgoritmo
 ```
+---
+
+### Operadores Lógicos e Relacionais
+
+Os operadores lógicos e relacionais são ferramentas essenciais em qualquer linguagem de programação, incluindo o Portugol. Eles permitem que você compare valores e construa expressões lógicas, tornando seus programas mais dinâmicos e capazes de tomar decisões.
+
+
+### Operadores Relacionais
+Os operadores relacionais são utilizados para comparar valores e retornar um resultado lógico (verdadeiro ou falso).
+
+- Igualdade: = (igual a) e <> (diferente de)
+- Desigualdade: < (menor que), > (maior que), <= (menor ou igual a), >= (maior ou igual a)
+
+```VisualG
+algoritmo "OperadoresRelacionais"
+var
+a, b, c: inteiro
+inicio
+
+a <- 2
+b <- 3
+c <- 5
+
+escreval (a > b)        // retorna falso
+escreval (a <> b)       // retorna verdadeiro
+escreval (a >= 2 )       // retorna verdadeiro
+escreval (c = a + b )      // retorna verdadeiro
+escreval (c <= b ^ a )      // retorna verdadeiro
+escreval (b <= c % 2 )      // retorna falso
+escreval ( 1 = c % 2 )       // retorna verdadeiro
+
+fimalgoritmo
+```
+
+### Operadores Lógicos
+Os operadores lógicos combinam expressões lógicas e retornam um resultado lógico.
+
+- E: e (conjunção) - Ambas as expressões devem ser verdadeiras para que o resultado seja verdadeiro.
+- OU: ou (disjunção) - Pelo menos uma das expressões deve ser verdadeira para que o resultado seja verdadeiro.
+- NÃO: nao (negação) - Inverte o valor lógico de uma expressão.
+
+```VisualG
+algoritmo "OperadoresLogicos"
+var
+a, b, c: inteiro
+inicio
+
+a <- 2
+b <- 3
+c <- 5
+
+escreval ((a = b ) ou (c > a ))  // retorna verdadeiro
+escreval (nao((a = b ) ou (c > a )))  // retorna falso
+
+
+fimalgoritmo
+```
