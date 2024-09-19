@@ -258,7 +258,7 @@ escreva ("A media entre ",n1, " e ",n2," é igual ", media)
 fimalgoritmo
 ```
 
-### Funções Aritméticas 23:09
+### Funções Aritméticas 
 
 Em Portugol, as funções aritméticas são como "mini-programas" que realizam cálculos específicos. Elas recebem valores como entrada, processam esses valores e retornam um resultado. Isso torna o código mais organizado, reutilizável e fácil de entender.
 
@@ -370,3 +370,63 @@ escreval (nao((a = b ) ou (c > a )))  // retorna falso
 
 fimalgoritmo
 ```
+
+---
+
+### Ordem de Precedência
+
+![alt text](image-4.png)
+
+Ordem de Precedência dos Operadores: Aritméticos, Relacionais e Lógicos
+A ordem em que as operações são realizadas em uma expressão é crucial para obter o resultado correto. Essa ordem é determinada pela precedência dos operadores.
+
+A ordem geral é a seguinte:
+
+- Operadores Aritméticos: São os operadores utilizados para realizar cálculos numéricos, como adição (+), subtração (-), multiplicação (*), divisão (/) e exponenciação (^).
+
+- Operadores Relacionais: Utilizados para comparar valores, resultando em um valor lógico (verdadeiro ou falso). Exemplos: igualdade (==), desigualdade (!=), maior que (>), menor que (<), maior ou igual que (>=), menor ou igual que (<=).
+
+- Operadores Lógicos: Utilizados para combinar expressões lógicas, resultando também em um valor lógico. Exemplos: E (AND), OU (OR), NÃO (NOT).
+Em resumo, a ordem de precedência é:
+
+* Aritméticos (primeiro)
+* Relacionais (segundo)
+* Lógicos (terceiro)
+
+**Por que essa ordem?**
+
+Cálculos antes de comparações: É mais natural realizar os cálculos numéricos antes de comparar os resultados.
+Combinação de resultados: Os operadores lógicos combinam os resultados das comparações, formando expressões mais complexas.
+
+### Exercício Triangulos
+```VisualG
+Algoritmo "triangulos"
+
+Var
+
+lado1, lado2, lado3: real
+equilatero, escaleno, triangulo: logico
+
+//Triângulo equilátero possui três lados iguais
+//Um triângulo é escaleno quando possuem medidas diferentes
+
+Inicio
+
+escreval("Digite o primeiro lado: ")
+leia(lado1)
+escreval("Digite o segundo lado: ")
+leia(lado2)
+escreval("Digite o terceiro lado: ")
+leia(lado3)
+triangulo <- (lado1 < lado2 + lado3) e (lado2 < lado1 + lado3) e (lado3 < lado1 + lado2)
+equilatero <- (lado1 - lado2) e (lado2 = lado3)
+escaleno <- (lado1 <> lado2) e (lado2 <> lado3) e (lado1 <> lado3)
+escreval ("Os valores podem formar um triangulo? ", triangulo)
+escreval ("O triangulo e equilatero? ", equilatero)
+escreval ("O triangulo e escaleno?", escaleno)
+
+
+
+
+Fimalgoritmo
+``` 
