@@ -74,3 +74,78 @@ escreva ("A soma entre ",n1, " e ", n2, " é igual a ", r)
 
 fimalgoritmo
 ```
+
+---
+
+### 5 - Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina.
+Ex:
+Nota 1: 4.5
+Nota 2: 8.5
+A média entre 4.5 e 8.5 é igual a 6.5
+```
+Algoritmo "calcularMedia"
+
+Var
+
+n1, n2, media: real
+
+Inicio
+
+escreval("Digite sua nota: ")
+leia(n1)
+escreval("Digite sua outra nota: ")
+leia(n2)
+media <- (n1 + n2) /2
+escreval("A média entre a nota ", n1," e ",n2, " é igual a ", media )
+
+Fimalgoritmo
+```
+---
+
+### 6 - Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor.
+Ex:
+Digite um número: 9
+O antecessor de 9 é 8
+O sucessor de 9 é 10
+```
+algoritmo "antecessorSucessor"
+var
+
+antecessor, sucessor, numero: inteiro
+
+inicio
+
+escreval("Digite um número: ")
+leia(numero)
+antecessor <- numero -1
+escreval ("O numero informado foi ",numero," seu antecessor é", antecessor)
+sucessor <- numero +1;
+escreval("O numero informado foi ",numero," seu sucessor é", sucessor)
+
+fimalgoritmo
+```
+---
+
+### 7-  Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua terça parte.
+Ex:
+Digite um número: 3.5
+O dobro de 3.5 é 7.0
+A terça parte de 3.5 é 1.16666
+```
+algoritmo "dobroTerco"
+var
+
+numero, dobro, terco: real
+
+inicio
+
+escreval("Digite um número: ")
+leia(numero)
+dobro <- numero * 2
+escreval("O número informado foi ", numero, ", o dobro desse número é ", dobro)
+terco <- numero / 3
+escreval("O número informado foi ", numero, " a terça parte desse número é ", terco:2:4)
+
+fimalgoritmo
+```
+---
