@@ -126,7 +126,7 @@ fimalgoritmo
 ```
 ---
 
-### 7-  Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua terça parte.
+### 7 - Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua terça parte.
 Ex:
 Digite um número: 3.5
 O dobro de 3.5 é 7.0
@@ -147,5 +147,45 @@ terco <- numero / 3
 escreval("O número informado foi ", numero, " a terça parte desse número é ", terco:2:4)
 
 fimalgoritmo
+```
+---
+### 8 - Desenvolva um programa que leia uma distância em metros e mostre os valores relativos em outras medidas.
+Ex:
+Digite uma distância em metros: 185.72
+A distância de 85.7m corresponde a:
+0.18572Km
+1.8572Hm
+18.572Dam
+1857.2dm
+18572.0cm
+185720.0mm
+```
+algoritmo "calcularDistancia"
+var
+
+valorMetros: real
+valorKm: real
+valorHm: real
+valorDam: real
+valorDm: real
+valorCm: real
+valorMm: real
+
+inicio
+escreval ("Digite um valor em metros: ")
+leia(valorMetros)
+valorKm <- valorMetros / 1000
+escreval ("O valor digitado em metros foi", valorMetros, " convertido para Quilômetro, passa a ser:", valorKm," KM")
+valorHm <- valorMetros /100
+escreval ("O valor digitado em metros foi,", valorMetros, " convertido para Hectômetro, passa a ser: ", valorHm," HM")
+valorDam <- valorMetros /10
+escreval ("O valor digitado em metros foi,", valorMetros, " convertido para Decâmetro, passa a ser: ", valorDam," DAM")
+valorDm <- valorMetros * 10
+escreval("O valor digitado em metros foi ", valorMetros, " convertido para Decímetro, passa a ser: ", valorDm," DM")
+valorCm <- valorMetros * 100
+escreval("O valor digitado em metros foi ", valorMetros, " convertido para Cemtímetros, passa a ser: ", valorCm," CM")
+valorMm <- valorMetros * 1000
+escreval("O valor digitado em metros foi ", valorMetros, "convertido para Milímetro, passa a ser: ", valorMm," MM")
+fimalgoritmo 
 ```
 ---
