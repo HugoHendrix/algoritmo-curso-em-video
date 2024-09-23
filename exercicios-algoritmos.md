@@ -205,3 +205,29 @@ escreval("O valor digitado em reais foi: ", valorReal, ", convertido para dolar,
 
 fimalgoritmo
 ```
+---
+### 10 - Faça um algoritmo que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+```
+algoritmo "calculaArea"
+var
+
+paredeAltura: real
+paredeLargura: real
+litroTinta: real
+areaTotal: real
+
+inicio
+escreval ("Por favor digite a altura da parede: ")
+leia(paredeAltura)
+escreval("Por favor digite a largura da parece: ")
+leia(paredeLargura)
+areaTotal <- paredeAltura * paredeLargura
+escreval("A altura da parede é ", paredeAltura, " metros, a largura da parede, é ", paredeLargura, " metros, o total da área é ", areaTotal, " metros")
+litroTinta <- areaTotal / 2
+escreval("Para pintar a área de", areaTotal, " metros, será necessário ", litroTinta, " litros de tinta")
+
+
+fimalgoritmo
+```
+---
+
