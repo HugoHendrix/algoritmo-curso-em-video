@@ -425,8 +425,5 @@ escreval ("Os valores podem formar um triangulo? ", triangulo)
 escreval ("O triangulo e equilatero? ", equilatero)
 escreval ("O triangulo e escaleno?", escaleno)
 
-
-
-
 Fimalgoritmo
 ``` 

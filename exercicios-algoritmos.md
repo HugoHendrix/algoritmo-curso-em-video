@@ -230,4 +230,41 @@ escreval("Para pintar a área de", areaTotal, " metros, será necessário ", lit
 fimalgoritmo
 ```
 ---
+### 11 - Desenvolva uma lógica que leia os valores de A, B e C de uma equação do segundo grau e mostre o valor de Delta.
+```
+algoritmo "calculaDelta"
+var
+
+a, b, c, delta: real
+
+inicio
+escreval ("Digite o valor de a: ")
+leia(a)
+escreval ("Digite o valor de b: ")
+leia(b)
+escreval ("Digite o valor de c: ")
+leia(c)
+delta <- b^2 - 4*a*c
+escreval("O valor de delta é: ", delta)
+fimalgoritmo
+```
+---
+### 12 -  Crie um programa que leia o preço de um produto, calcule e mostre o seu PREÇO PROMOCIONAL, com 5% de desconto.
+```
+algoritmo "calcularDesconto"
+var
+
+precoProduto: real
+desconto: real
+precoPromocao: real
+
+inicio
+escreval("Digite o valor do produto: ")
+leia(precoProduto)
+desconto <- precoProduto * 0.05  // Calculando o valor do desconto (5% de precoProduto)
+precoPromocao <- precoProduto - desconto  // Calculando o preço com desconto
+escreval("O valor do produto é ", precoProduto, " com desconto de 5%, o valor agora é: ", precoPromocao)
+
+fimalgoritmo
+```
 
