@@ -267,4 +267,25 @@ escreval("O valor do produto é ", precoProduto, " com desconto de 5%, o valor a
 
 fimalgoritmo
 ```
+---
+### 13 - Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o seu novo salário, com 15% de aumento.
+```
+algoritmo "aumentaSalario"
+var
+
+salarioAtual: real
+aumento: real
+salarioAumento: real
+
+inicio
+escreval("Digite seu salário atual: ")
+leia(salarioAtual)
+aumento <- salarioAtual * 0.15
+salarioAumento <- salarioAtual + aumento
+
+escreval("Com o aumento seu salário é: ", salarioAumento)
+
+fimalgoritmo
+```
+---
 
