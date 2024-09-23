@@ -288,4 +288,48 @@ escreval("Com o aumento seu salário é: ", salarioAumento)
 fimalgoritmo
 ```
 ---
+### 14 - A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço total a pagar, sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado.
+```
+algoritmo "alugaCarro"
+var
 
+diasAlugados, kmPercorrido: inteiro
+valorPorDia, valorPorKm, valorDias, valorKm, valorTotal: real
+
+inicio
+escreval("Informe a quantiddade de dias alugados: ")
+leia(diasAlugados)
+escreval("Informe a quantidade de quilômentros percorridos: ")
+leia(kmPercorrido)
+valorPorDia <- 90.00
+valorKm <- 0.20
+
+valorDias <- diasAlugados * valorPordia
+valorPorKm <- kmPercorrido * valorKm
+valorTotal <- valorDias + valorPorKm
+escreval("O valor total a pagar é: R$",valorTotal:2:2)
+
+fimalgoritmo
+```
+---
+
+### 15 -  Crie um programa que leia o número de dias trabalhados em um mês e mostre o salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$25 por hora trabalhada.
+```
+algoritmo "salarioFuncionar"
+
+var
+diasTrabalhados, horasTrabalhadas: inteiro
+valorHora, salario: real
+
+inicio
+escreval("Informe a quantidade de dias trabalhados no mês: ")
+leia(diasTrabalhados)
+
+valorHora <- 25
+horasTrabalhadas <- diasTrabalhados * 8
+salario <- horasTrabalhadas * valorHora
+escreval("O salário do funcionário é RS:",salario:2:2)
+
+fimalgoritmo
+```
+---
