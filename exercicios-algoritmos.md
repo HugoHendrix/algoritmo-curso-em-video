@@ -189,3 +189,19 @@ escreval("O valor digitado em metros foi ", valorMetros, "convertido para Milím
 fimalgoritmo 
 ```
 ---
+### 9 - Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
+```
+algoritmo "conversorDolar"
+var
+
+valorReal: real
+valorDolar: real
+
+inicio
+escreval ("Quantos reais você tem para converter em dolar? ")
+leia(valorReal)
+valorDolar <- valorReal * 3.45
+escreval("O valor digitado em reais foi: ", valorReal, ", convertido para dolar, o valor passa a ser: R$:", valorDolar:2:2)
+
+fimalgoritmo
+```
