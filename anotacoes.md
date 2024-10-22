@@ -552,3 +552,46 @@ fimalgoritmo
 
 ---
 
+### Conversor de Moedas
+```visualg
+algoritmo "ConversorDeMoedas"
+var
+
+reais, dolares: real
+
+inicio
+
+Escreval ("Qual o valor será convertido em dolares americanos? ")
+Leia(reais)
+dolares <- reais / 5.40
+Escreval("O valor informado de", reais, " reais, convertido em dolares, será: ", dolares:2:2)
+
+fimalgoritmo
+```
+
+### Conversor de Moedas com quantidade de conversões
+```visualg
+
+algoritmo "Convesor"
+var
+
+reais, dolares: real
+contador, numeroConversoes: inteiro
+
+inicio
+
+contador <- 1
+numeroConversoes <- 1
+Escreval("Quantas conversões serão realizadas? ")
+Leia (numeroConversoes)
+Enquanto (contador <= numeroConversoes) Faca
+         Escreval("Qual o valor em R$? ")
+         Leia(reais)
+         dolares <- reais /5.40
+         Escreval("O valore convertido é US$ ", dolares:5:2)
+         contador <- contador + 1
+
+
+FimEnquanto
+fimalgoritmo
+```
