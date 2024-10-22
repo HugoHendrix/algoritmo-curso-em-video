@@ -159,7 +159,7 @@ inicio
       fimse
 fimalgoritmo
 ```
-
+---
 ### Exercício de somar valores
 
 ```Visualg
@@ -427,3 +427,128 @@ escreval ("O triangulo e escaleno?", escaleno)
 
 Fimalgoritmo
 ``` 
+
+---
+
+## Estruturas de Repetição
+
+### Prática 01 - Contador de 0 a 10
+
+```pseudocode
+algoritmo "ContarAte10"
+var
+  contador: Inteiro
+
+inicio
+  contador <- 0
+  enquanto (contador <= 10) faca
+    Escreval(contador)
+    contador <- contador + 1
+  fimenquanto
+fimalgoritmo
+```
+
+---
+
+### Subtraindo de 100 a 1 (de 10 em 10)
+
+```pseudocode
+algoritmo "Subtrair"
+var
+  contador: Inteiro
+
+inicio
+  contador <- 100
+  enquanto (contador >= 1) faca
+    Escreval(contador)
+    contador <- contador - 10
+  fimenquanto
+fimalgoritmo
+```
+
+---
+
+### Contar até o número inserido pelo usuário
+
+```pseudocode
+algoritmo "ContarAteQuantos?"
+var
+  valor, contador: Inteiro
+
+inicio
+  contador <- 0
+  escreval("Olá, quer contar até qual número? ")
+  leia(valor)
+  enquanto (contador <= valor) faca
+    Escreval(contador)
+    contador <- contador + 1
+  fimenquanto
+fimalgoritmo
+```
+
+---
+
+### Contar até o número inserido com salto definido pelo usuário
+
+```pseudocode
+algoritmo "ContarAteQuantosComSalto"
+var
+  valor, salto, contador: Inteiro
+
+inicio
+  contador <- 0
+  escreval("Olá, quer contar até qual número? ")
+  leia(valor)
+  escreval("Qual o valor do salto?")
+  leia(salto)
+  enquanto (contador <= valor) faca
+    Escreval(contador)
+    contador <- contador + salto
+  fimenquanto
+fimalgoritmo
+```
+
+---
+
+### Somador Numérico (maior, menor e soma dos valores inseridos)
+
+```pseudocode
+algoritmo "SomadorNumerico"
+var
+  contador, valor, soma, maiorNumero, menorNumero: inteiro
+
+inicio
+  contador <- 1
+  soma <- 0
+
+  escreva("Digite o 1o. valor: ")
+  leia(valor)
+  maiorNumero <- valor
+  menorNumero <- valor
+  soma <- valor
+  contador <- 2
+
+  enquanto (contador <= 5) faca
+    escreva("Digite o ", contador, "o. valor: ")
+    leia(valor)
+
+    se (valor > maiorNumero) entao
+      maiorNumero <- valor
+    fimse
+
+    se (valor < menorNumero) entao
+      menorNumero <- valor
+    fimse
+
+    soma <- soma + valor
+    contador <- contador + 1
+  fimenquanto
+
+  Escreval("A soma dos números informados foi de ", soma)
+  Escreval("O maior número informado foi ", maiorNumero)
+  Escreval("O menor número informado foi ", menorNumero)
+fimalgoritmo
+```
+
+---
+
