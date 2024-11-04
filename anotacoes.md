@@ -430,7 +430,7 @@ Fimalgoritmo
 
 ---
 
-## Estruturas de Repetição
+## Estruturas de Repetição usando Enquanto
 
 ### Prática 01 - Contador de 0 a 10
 
@@ -593,5 +593,222 @@ Enquanto (contador <= numeroConversoes) Faca
 
 
 FimEnquanto
+fimalgoritmo
+```
+
+## Estrutura de Repetição usando Repita
+
+### Somando Números
+```visualg
+algoritmo "SomandoNumeros"
+var
+N, S: Inteiro
+Resp: Caractere
+
+inicio
+
+      S <- 0
+      Repita
+               Escreva ("Digite o valor ==> ")
+               Leia (N)
+               S <- S + N
+               Escreva ("Você quer continuar ? [S/N] ")
+               Leia (Resp)
+      Ate (Resp = "n")
+      Escreval("A soma de todos os valores é: ", s)
+
+fimalgoritmo
+```
+---
+
+### Contar até 10
+
+```Visualg
+algoritmo "contarAte10"
+var
+
+Cont: Inteiro
+
+inicio
+      Cont <- 1
+      Repita
+            Escreval(Cont)
+            Cont <- Cont + 1
+      Ate (Cont > 10)
+
+
+fimalgoritmo
+```
+
+---
+
+### Taboada Express
+
+```Visualg
+algoritmo "TabuadaExpress"
+var
+
+Taboada, Resultado, Numero, Contador: Inteiro
+
+inicio
+      Contador <- 1
+      Escreval("Bem vindo ao Tabuada Express")
+      Escreval("Qual número você quer ver a tabuada?")
+      Leia(Numero)
+      Repita
+            Resultado <- Numero * Contador
+            Escreval(Numero, " X ", Contador, " = ", Resultado)
+            Contador <- Contador + 1
+      Ate (Contador > 10)
+
+
+fimalgoritmo
+```
+
+---
+
+### Contar Número Negativos
+
+```Visualg
+algoritmo "ContaNegativos"
+var
+
+  C, N, TotN: Inteiro
+
+inicio
+      C <- 1
+      Repita
+            Escreva ("Digite um número: ")
+            Leia (N)
+            Se (N < 0 ) Entao
+               TotN <- TotN + 1
+            FimSe
+            C <- C + 1
+       Ate (C > 5)
+       Escreval ("Foram digitados ", TotN, " valores negativos")
+            
+
+fimalgoritmo
+```
+
+---
+
+### Calcular Fatorial
+
+```Visualg
+algoritmo "CalcularFatorial"
+var
+
+   Numero, Fatorial, Contador: Inteiro
+
+inicio
+
+Escreval ("Digite um número ")
+Leia(Numero)
+Contador <- Numero
+Fatorial <- 1
+Repita
+      Fatorial <- Fatorial * Contador
+      Contador <- Contador - 1
+Ate (Contador < 1)
+Escreva ("O valor do Fatorial de ", Numero, " é igual a ", Fatorial)
+
+fimalgoritmo
+```
+
+---
+
+### Calcular Fatorial com vários números com opção de contiuar ou não
+
+```Visualg
+algoritmo "CalcularFatorial"
+var
+
+   Numero, Fatorial, Contador: Inteiro
+   Resposta: Caractere
+
+inicio
+Repita
+      Escreval ("Digite um número ")
+      Leia(Numero)
+      Contador <- Numero
+      Fatorial <- 1
+      Repita
+            Fatorial <- Fatorial * Contador
+            Contador <- Contador - 1
+      Ate (Contador < 1)
+      Escreval ("O valor do Fatorial de ", Numero, " é igual a ", Fatorial)
+      Escreval ("Quer continuar? [S/N]")
+      Leia(Resposta)
+Ate (Resposta = "n")
+LimpaTela
+
+fimalgoritmo
+```
+
+---
+
+### Calcular Número Primo
+
+```Visualg
+algoritmo "NumeroPrimo"
+var
+
+ContDiv, Contador, Numero: Inteiro
+
+inicio
+      Contador <- 1
+      ContDiv <- 0
+      Escreval ("Digite um número: ")
+      Leia(Numero)
+      Repita
+            Se (Numero % Contador = 0) Entao
+               ContDiv <- ContDiv + 1
+            FimSe
+            Contador <- Contador + 1
+      Ate (Contador > Numero )
+      Se (ContDiv > 2) Entao
+            Escreval("O valor ", Numero, " não é um número primo")
+      SeNao
+           EscrevaL("O valor ", Numero, " é um número primo!")
+      FimSe
+
+fimalgoritmo
+```
+
+---
+
+### Calcula Número Primo com opção de continuar ou não
+
+```Visualg
+
+algoritmo "NumeroPrimo"
+var
+
+ContDiv, Contador, Numero: Inteiro
+Resposta: Caractere
+
+inicio
+Repita
+      Contador <- 1
+      ContDiv <- 0
+      Escreval ("Digite um número: ")
+      Leia(Numero)
+      Repita
+            Se (Numero % Contador = 0) Entao
+               ContDiv <- ContDiv + 1
+            FimSe
+            Contador <- Contador + 1
+      Ate (Contador > Numero )
+      Se (ContDiv > 2) Entao
+            Escreval("O valor ", Numero, " não é um número primo")
+      SeNao
+           EscrevaL("O valor ", Numero, " é um número primo!")
+      FimSe
+      Escreval ("Quer continuar? [S/N]")
+      Leia(Resposta)
+Ate (Resposta = "n")
+LimpaTela
+
 fimalgoritmo
 ```
