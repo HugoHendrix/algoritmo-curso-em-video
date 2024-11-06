@@ -189,7 +189,7 @@ Operadores aritméticos são símbolos utilizados para realizar cálculos matem�
 ^: Exponenciação
 %: Módulo (resto da divisão)
 
-```VisualG
+```Portugol Visualg
 algoritmo "semnome"
 var
 
