@@ -2,7 +2,7 @@
 
 Para criar uma estrutura inicial pressione `! + CTRL espaço `
 
-```VisualG
+```Portugol Visualg
 algoritmo "semnome"
 var
     //Área de variáveis
@@ -20,7 +20,7 @@ fimalgoritmo
 - `Escreva ("Sua mensagem")` - Tudo dentro de aspas, são considerados strings ou seja cadeias de caracteres.
 - `Escreval` - Semelhante ao escreva, mais com a letra L no final, utilizado para pular a linha de baixo.
 
-``` VisualG
+``` Portugol Visualg
 algoritmo "semnome"
 var
 
@@ -87,7 +87,7 @@ A sintaxe básica para atribuir um valor a uma variável em Portugol é:
 
 O símbolo **<-** é o operador de atribuição e significa **recebe**.
 
-``` VisualG
+```Portugol Visualg
 algoritmo "semnome"
 var
   msg: caractere
@@ -106,7 +106,7 @@ Note que no escreva, foi retirado as aspas
 * Escreva(msg) - Vai escrever o conteúdo da variável msg
 * Escreva("mensagem", msg) - Vai exibir 2 coisas, vai escrever mensagem e o conteúdo da variável msg
 
-```VisualG
+```Portugol Visualg
 algoritmo "semnome"
 var
   msg: caractere
@@ -139,7 +139,7 @@ Em resumo:
 Comandos de entrada: Interagem com o usuário.
 Operadores: Realizam operações em valores.
 
-```VisualG
+```Portugol Visualg
 algoritmo "meuNome"
 var
    nome: caractere
@@ -162,7 +162,7 @@ fimalgoritmo
 ---
 ### Exercício de somar valores
 
-```Visualg
+```Portugol Visualg
 algoritmo "somarNumeros"
 var
 n1, n2, resultado: inteiro
@@ -240,7 +240,7 @@ Para mudar a ordem, use parênteses:
 
 ### Exercício de Cálcula de Média
 
-```VisualG
+```Portugol Visualg
 algoritmo "semnome"
 var
 
@@ -272,7 +272,7 @@ Em Portugol, as funções aritméticas são como "mini-programas" que realizam c
 * Tan - Tangente (rad)
 * GraupRad - Graus para rad
 
-```VisualG
+```Portugol Visualg
 algoritmo "testeFuncoes"
 var
 
@@ -297,7 +297,7 @@ fimalgoritmo
 ```
 ### Exercício de conversão
 
-```VisualG
+```Portugol Visualg
 algoritmo "conversos"
 var
 
@@ -326,7 +326,7 @@ Os operadores relacionais são utilizados para comparar valores e retornar um re
 - Igualdade: = (igual a) e <> (diferente de)
 - Desigualdade: < (menor que), > (maior que), <= (menor ou igual a), >= (maior ou igual a)
 
-```VisualG
+```Portugol Visualg
 algoritmo "OperadoresRelacionais"
 var
 a, b, c: inteiro
@@ -354,7 +354,7 @@ Os operadores lógicos combinam expressões lógicas e retornam um resultado ló
 - OU: ou (disjunção) - Pelo menos uma das expressões deve ser verdadeira para que o resultado seja verdadeiro.
 - NÃO: nao (negação) - Inverte o valor lógico de uma expressão.
 
-```VisualG
+```Portugol Visualg
 algoritmo "OperadoresLogicos"
 var
 a, b, c: inteiro
@@ -399,7 +399,7 @@ Cálculos antes de comparações: É mais natural realizar os cálculos numéric
 Combinação de resultados: Os operadores lógicos combinam os resultados das comparações, formando expressões mais complexas.
 
 ### Exercício Triangulos
-```VisualG
+```Portugol Visualg
 Algoritmo "triangulos"
 
 Var

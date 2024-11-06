@@ -1,13 +1,13 @@
 # Entendendo as Estruturas de Repetição
 
-As estruturas de repetição são ferramentas poderosas na programação, permitindo que um bloco de código seja executado repetidamente enquanto uma determinada condição for verdadeira. No VisualG, temos os comandos `Enquanto`, `Repita` e `Para` para implementar essas repetições.
+As estruturas de repetição são ferramentas poderosas na programação, permitindo que um bloco de código seja executado repetidamente enquanto uma determinada condição for verdadeira. No Portugol Visualg, temos os comandos `Enquanto`, `Repita` e `Para` para implementar essas repetições.
 
 - **Enquanto (While)**: Executa um bloco de comandos enquanto uma condição for verdadeira. A verificação da condição ocorre no início do loop.
 - **Repita (Do-While)**: Executa um bloco de comandos pelo menos uma vez e continua a repetição enquanto uma condição for verdadeira. A verificação da condição ocorre no final do loop.
 - **Para (For)**: Executa um bloco de comandos um número determinado de vezes. É utilizado quando se conhece antecipadamente o número de iterações.
 
 ### Exemplo utilizando Enquanto
-```
+```Portugol Portugol Visualg
 algoritmo "ContarAte10"
 var
 
@@ -26,7 +26,7 @@ fimalgoritmo
 ---
 
 ### Exemplo utilizando Repita
-```
+```Portugol Portugol Visualg
 algoritmo "ContarAte10"
 var
 
@@ -46,7 +46,7 @@ fimalgoritmo
 ---
 
 ### Exemplo utilizando Para
-```
+```Portugol Portugol Visualg
 algoritmo "ContarAte10"
 var
 
@@ -80,7 +80,7 @@ fimalgoritmo
 
 ### Prática 01 - Contador de 0 a 10
 
-```pseudocode
+```Portugol Portugol Visualg
 algoritmo "ContarAte10"
 var
   contador: Inteiro
@@ -98,7 +98,7 @@ fimalgoritmo
 
 ### Subtraindo de 100 a 1 (de 10 em 10)
 
-```pseudocode
+```Portugol Portugol Visualg
 algoritmo "Subtrair"
 var
   contador: Inteiro
@@ -116,7 +116,7 @@ fimalgoritmo
 
 ### Contar até o número inserido pelo usuário
 
-```pseudocode
+```Portugol Portugol Visualg
 algoritmo "ContarAteQuantos?"
 var
   valor, contador: Inteiro
@@ -136,7 +136,7 @@ fimalgoritmo
 
 ### Contar até o número inserido com salto definido pelo usuário
 
-```pseudocode
+```Portugol Portugol Visualg
 algoritmo "ContarAteQuantosComSalto"
 var
   valor, salto, contador: Inteiro
@@ -158,7 +158,7 @@ fimalgoritmo
 
 ### Somador Numérico (maior, menor e soma dos valores inseridos)
 
-```pseudocode
+```Portugol Portugol Visualg
 algoritmo "SomadorNumerico"
 var
   contador, valor, soma, maiorNumero, menorNumero: inteiro
@@ -199,7 +199,7 @@ fimalgoritmo
 ---
 
 ### Conversor de Moedas
-```visualg
+```Portugol Visualg
 algoritmo "ConversorDeMoedas"
 var
 
@@ -216,7 +216,7 @@ fimalgoritmo
 ```
 
 ### Conversor de Moedas com quantidade de conversões
-```visualg
+```Portugol Visualg
 
 algoritmo "Convesor"
 var
@@ -245,7 +245,7 @@ fimalgoritmo
 ## Estrutura de Repetição usando Repita
 
 ### Somando Números
-```visualg
+```Portugol Visualg
 algoritmo "SomandoNumeros"
 var
 N, S: Inteiro
@@ -269,7 +269,7 @@ fimalgoritmo
 
 ### Contar até 10
 
-```Visualg
+```Portugol Visualg
 algoritmo "contarAte10"
 var
 
@@ -290,7 +290,7 @@ fimalgoritmo
 
 ### Taboada Express
 
-```Visualg
+```Portugol Visualg
 algoritmo "TabuadaExpress"
 var
 
@@ -315,7 +315,7 @@ fimalgoritmo
 
 ### Contar Número Negativos
 
-```Visualg
+```Portugol Visualg
 algoritmo "ContaNegativos"
 var
 
@@ -341,7 +341,7 @@ fimalgoritmo
 
 ### Calcular Fatorial
 
-```Visualg
+```Portugol Visualg
 algoritmo "CalcularFatorial"
 var
 
@@ -366,7 +366,7 @@ fimalgoritmo
 
 ### Calcular Fatorial com vários números com opção de contiuar ou não
 
-```Visualg
+```Portugol Visualg
 algoritmo "CalcularFatorial"
 var
 
@@ -396,7 +396,7 @@ fimalgoritmo
 
 ### Calcular Número Primo
 
-```Visualg
+```Portugol Visualg
 algoritmo "NumeroPrimo"
 var
 
@@ -426,7 +426,7 @@ fimalgoritmo
 
 ### Calcula Número Primo com opção de continuar ou não
 
-```Visualg
+```Portugol Visualg
 
 algoritmo "NumeroPrimo"
 var
@@ -464,7 +464,7 @@ fimalgoritmo
 
 ### Contando até 10
 
-```Visualg
+```Portugol Visualg
 algoritmo "ContarAte!0"
 var
 
@@ -499,7 +499,7 @@ fimalgoritmo
 
 ### Números Pares
 
-```Visualg
+```Portugol Visualg
 algoritmo "valoresPares"
 var
    Contador, Valor: Inteiro
