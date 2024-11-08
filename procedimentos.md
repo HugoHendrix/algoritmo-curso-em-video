@@ -108,3 +108,42 @@ fimalgoritmo
 
 ### Escopo Global e Escopo local
 ![Imagem de escopo global e local](escopo.png)
+
+```Portugol Visualg
+algoritmo "ParOuImparProcedimento"
+var
+
+N: Inteiro
+Resposta: Caractere
+Procedimento ParOuImpar(V: Inteiro)
+Inicio
+      Se(V%2 = 0) Entao
+           Escreval("O número ", V, " é PAR")
+      SeNao
+           Escreval("O número ", V, " é IMPAR")
+      FimSe
+FimProcedimento
+inicio
+      Repita
+      Escreva("Digite um número: ")
+      Leia(N)
+      ParOuImpar(N)
+      Escreval("O valor de V e ", V)
+      Escreval("Quer continuar [S/N] ?")
+      Leia(Resposta)
+      Ate(Resposta = "n")
+
+fimalgoritmo
+```
+
+### Analisando o Código e Entendendo Escopos
+**O problema do código**:
+
+O erro no seu código está na linha `Escreval("O valor de V e ", V)`. A variável `V` dentro desse `Escreval` está tentando acessar uma variável que existe apenas dentro do procedimento `ParOuImpar`. Essa variável `V` é local ao procedimento, ou seja, só "vive" dentro dele.
+
+**Entendendo Escopos**:
+
+- Escopo Global: Variáveis declaradas fora de qualquer procedimento ou função são consideradas globais. Elas podem ser acessadas de qualquer ponto do seu programa.
+- Escopo Local: Variáveis declaradas dentro de um procedimento ou função são locais. Elas só existem e podem ser utilizadas dentro daquele bloco de código específico.
+- A variável `N` é global, pois foi declarada no início do algoritmo.
+A variável `V` dentro do procedimento `ParOuImpar` é local. Ela é criada quando o procedimento é chamado e destruída quando ele termina.
